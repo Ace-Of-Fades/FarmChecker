@@ -1,0 +1,17 @@
+{
+  "name": "farm-checker",
+  "version": "1.0.0",
+  "description": "Take an input CSV of wallets and checks their farm balance",
+  "main": "index.js",
+  "scripts": {
+    "check": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "VulcanBearBull",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "ethers": "5.7.2",
+    "fs": "0.0.1-security"
+  }
+}
