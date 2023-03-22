@@ -1,5 +1,5 @@
 const fs = require('fs');
-var os = require("os");
+const os = require("os");
 const csv = require('csv-parser');
 const { ethers } = require('ethers');
 const abi = require('./abi.json')
